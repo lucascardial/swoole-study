@@ -1,0 +1,23 @@
+{
+    "name": "the-members/shortner",
+    "description": "An URL shortner Swoole app",
+    "type": "project",
+    "license": "UNLICENSED",
+    "autoload": {
+        "psr-4": {
+            "TheMembers\\Shortner\\": "app/",
+            "Core\\": "core/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Lucas Cardial",
+            "email": "luccascardial@gmail.com"
+        }
+    ],
+    "require": {
+        "aws/aws-sdk-php": "^3.305",
+        "ext-swoole": "*",
+        "php": "^8.3"
+    }
+}
